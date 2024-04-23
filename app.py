@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your trained model
-model = joblib.load('best_rf_model-2.sav')
+model = joblib.load('best_rf_model-2.pkl')
 
 # Title of the web app
 st.title('Spotify & Youtube Hit Classifier - Random Forest Model Deployment')
